@@ -45,10 +45,7 @@
 									placeholder="Password" "/>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" name="remember-me" id="remember-me"
-									class="agree-term" /> <label for="remember-me"
-									class="label-agree-term"><span><span></span></span>Remember
-									me</label>
+								<a href="forgotPassword.jsp">Forget Password?</a>
 							</div>
 							<div class="form-group form-button">
 								<input type="submit" name="signin" id="signin"
@@ -88,6 +85,12 @@
 	}
 	else if(status == "InvalidPassword"){
 		swal("Sorry","Wrong Password","error");
+	}
+	else if(status == "resetSuccess"){
+		swal("Congrats","Password Reset Success","success");
+	}
+	else if(status == "resetFailed"){
+		swal("Sorry","Password Reset Failed","error");
 	}
 </script>
 </body>
