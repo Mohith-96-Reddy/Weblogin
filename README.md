@@ -5,9 +5,9 @@ Login Page is very common among any type of secured applications and its widely 
 In this example we will see the actual use of Login Page in web application or any other type of applications. For example if you have to use Windows or Linux operating system you have to login to the system by providing the username and password. So, login page will validate you to find if you are the authenticated user of the OS or not. If not you won't be able to the operating system and can't access it. The security and authentication of any application is very old process which is in used with the invention of the Operating systems. Linux is considered as most secured operating system and it manages the security very well.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 USED:
-Java , html , css , Java servelet , sql(database) -- Source Code 
-Eclipse -- used Java IDE 
-Tomcat server 9.0 used -- server
+Java , html , css , Java servelet , sql(database) -- Source Code / 
+Eclipse -- used Java IDE / 
+Tomcat server 9.0 used -- server / 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 1. First Page(Login) Interface
 ![Screenshot (31)](https://user-images.githubusercontent.com/86471322/214312770-f9ce8a51-b0b7-4c2d-abbb-32fa6c741f01.png)
